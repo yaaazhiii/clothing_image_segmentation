@@ -21,11 +21,21 @@ $ git clone git@github.com:davidygp/clothing_image_segmentation.git
 
 $ cd ./clothing_image_segmentation
 
-$ conda activate ./venv/mask_rcnn
+(We were unable to upload the conda environment due to filesize issues, even with GitLFS) 
+$ conda create --name mask_rcnn_v2 python=3.6.10
+
+$ conda activate mask_rcnn_v2
+
+$ conda install -c anaconda cudatoolkit==9.0 cudnn==7.1.4
+
+$ pip install -r requirements.txt
+
+$ pip install git+https://github.com/philferriere/cocoapi.git#subdirectory=PythonAPI
 
 $ jupyter notebook
 
 In the browser click on the mask_rcnn_main notebook
+
 
 [ 2 ] To run the codes on google colab
 
