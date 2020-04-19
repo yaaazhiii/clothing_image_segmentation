@@ -16,7 +16,7 @@ In this Continuous Assessment (CA), we utilize the Mask RCNN architecture with a
 
 
 # SECTION 4 : USER GUIDE
-[ 1 ] To run the codes in any machine with anaconda 3 installed
+[ 1 ] To run the codes in any windows machine with anaconda 3 installed
 
 $ git clone git@github.com:davidygp/clothing_image_segmentation.git
 
@@ -31,6 +31,7 @@ $ conda install -c anaconda cudatoolkit==9.0 cudnn==7.1.4
 $ pip install -r requirements.txt
 
 $ pip install git+https://github.com/philferriere/cocoapi.git#subdirectory=PythonAPI
+  (Note: If you get error at this part, you might need to install Microsoft Visual Studio C++ 2015)
 
 $ jupyter notebook
 
