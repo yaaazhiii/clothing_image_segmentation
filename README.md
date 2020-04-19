@@ -1,10 +1,10 @@
 # SECTION 1 : PROJECT TITLE
-### clothing_image_segmentation
-<img width="812" alt="welcome" src="https://user-images.githubusercontent.com/48171290/54080819-80836a80-4333-11e9-9f1d-7f21123d454f.png">
+<img width="812" alt="welcome" src="https://user-images.githubusercontent.com/31118924/79683065-fad22e00-8259-11ea-9e1c-c2401a3129b1.PNG">
 
 
 # SECTION 2 : EXECUTIVE SUMMARY / PAPER ABSTRACT
-(to fill in)
+In this Continuous Assessment (CA), we utilize the Mask RCNN architecture with a ResNet backbone to train and infer image segmentation masks. The initial weights were pre-trained on COCO Images, and transfer learning was done onto images derived from the OpenImagesv5 dataset. The image classes are: Suit, Dress Jeans. The resulting test loss is 2.24 and the Mean Average Precision (mAP) achieved is 0.82. Lastly, 5 scoring images have been provided to showcase the model’s effectiveness in inference.
+
 
 # SECTION 3 : CREDITS / PROJECT CONTRIBUTION
 
@@ -21,7 +21,6 @@ $ git clone git@github.com:davidygp/clothing_image_segmentation.git
 
 $ cd ./clothing_image_segmentation
 
-(We were unable to upload the conda environment due to filesize issues, even with GitLFS) 
 $ conda create --name mask_rcnn_v2 python=3.6.10
 
 $ conda activate mask_rcnn_v2
@@ -40,20 +39,10 @@ In the browser click on the mask_rcnn_main notebook
 [ 2 ] To run the codes on google colab
 
 1) Upload the following files:
-   (NOTE: put it into a folder called "colab_notebooks" in your "My Drive")
-   mask_rcnn_envir.zip
-   mask_rcnn_main.ipynb 
-   (so /content/drive/'My Drive'/colab_notebooks/mask_rcnn_envir.zip &
-       /content/drive/'My Drive'/colab_notebooks/mask_rcnn_main.ipynb)
-
-2) Open the mask_rcnn_main.ipynb with "Google Colaboratory"
+   (NOTE: put it into a folder called "colab_notebooks" in your "My Drive")  
+   mask_rcnn_envir.zip  
+   mask_rcnn_main.ipynb   
 
 
 # SECTION 5 : PROJECT REPORT / PAPER
-<Github File Link>  https://github.com/davidygp/IRS-MR-2019-01-19-IS1PT-GRP-MRCard/tree/master/ProjectReport/Report.pdf
-
-+ Project Objectives & Success Measurements
-+ Project Solution
-+ Project Performance & Validation
-+ ...
-# -clothing_image_segmentation
+<Github File Link> https://github.com/davidygp/clothing_image_segmentation/tree/master/report/Report.pdf
