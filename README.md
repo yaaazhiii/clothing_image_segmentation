@@ -30,7 +30,7 @@ $ conda install -c anaconda cudatoolkit==9.0 cudnn==7.1.4
 
 $ pip install -r requirements.txt
 
-$ pip install git+https://github.com/philferriere/cocoapi.git#subdirectory=PythonAPI
+$ pip install git+https://github.com/philferriere/cocoapi.git#subdirectory=PythonAPI  
   (Note: If you get error at this part, you might need to install Microsoft Visual Studio C++ 2015)
 
 $ jupyter notebook
@@ -40,7 +40,7 @@ In the browser click on the mask_rcnn_main notebook
 
 [ 2 ] To run the codes on google colab
 
-1) Upload the following files:
+1) Upload the following files:  
    (NOTE: put it into a folder called "colab_notebooks" in your "My Drive")  
    mask_rcnn_envir.zip  
    mask_rcnn_main.ipynb   
