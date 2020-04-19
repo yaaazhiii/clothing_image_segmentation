@@ -1,4 +1,5 @@
 # SECTION 1 : PROJECT TITLE
+# Clothing Image Segmentation
 <img width="812" alt="welcome" src="https://user-images.githubusercontent.com/31118924/79683065-fad22e00-8259-11ea-9e1c-c2401a3129b1.PNG">
 
 
