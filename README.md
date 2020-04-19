@@ -11,7 +11,7 @@ In this Continuous Assessment (CA), we utilize the Mask RCNN architecture with a
 
 | Official Full Name | Student ID (MTech Applicable)| Work Items (Who Did What) | Email (Optional) |
 | :---: | :---: | :---: | :---: |
-| YAM GUI PENG DAVID | A0195315A | Idea generation, dataset generation, model exploration, code formatting and structuring, and project report | e0384946@u.nus.edu |
+| YAM GUI PENG DAVID | A0195315A | Idea generation, dataset generation, model exploration, code formatting/structuring and project report | e0384946@u.nus.edu |
 | ZHAO YAZHI | A0195305E | Idea generation, model exploration, model fine tuning and project report | e0384936@u.nus.edu |
 
 
